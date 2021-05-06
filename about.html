@@ -7,6 +7,20 @@
 
   <body>
 
+    <div>
+    <object data="texte.mp3" type="audio/x-mpeg" width="0" height="0" >
+        <param name="src" value="texte.mp3" />
+        <param name="controls" value="console" />
+        <param name="autostart" value="true" />
+        <param name="loop" value="false" />
+        <script type="text/javascript" >
+            <!--
+                document.write('<embed src="texte.mp3" width="0" height="0" controls="console" loop="false" autostart="true" ></embed>');
+            //-->
+        </script>
+    </object>
+</div>
+    
     <div id="header">
       <div class="container">
         <a id="header-title" href="index.html">à définir</a>
@@ -34,16 +48,6 @@
       </div>   <!-- container -->
     </div>   <!-- content -->
     
-      <embed src="texte.mp3"
-         autostart="true"
-         hidden="false"
-         loop="false">
-         
-  <noembed><bgsound src="texte.mp3" loop="1"></noembed>
-    </embed>
-
-
-
 
 
     <div id="footer">
